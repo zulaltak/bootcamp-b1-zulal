@@ -5,5 +5,9 @@
     <RootNamespace>net_core_bootcamp_b1</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+
 
 </Project>
