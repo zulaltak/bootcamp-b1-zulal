@@ -20,5 +20,5 @@ namespace net_core_bootcamp_b1.Models
         public double Price { get; set; }
         public string Subject { get; set; }
         public string Desc { get; set; }
-    }
+    }       
 }
