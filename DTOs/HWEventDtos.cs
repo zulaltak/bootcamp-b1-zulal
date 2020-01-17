@@ -26,7 +26,7 @@ namespace net_core_bootcamp_b1.DTOs
     
     public class HWEventGetDto
     {
-        public Guid Id { get; set; }
+        public Guid? Id { get; set; }
         public DateTime CreatedAt { get; set; }
         public string Name { get; set; }
         public DateTime StartDate { get; set; }
