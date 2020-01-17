@@ -21,7 +21,7 @@ namespace net_core_bootcamp_b1.DTOs
     public class HWEventUpDateDto : HWEventAddDto
     {
         [Required]
-        public Guid Id { get; set; }
+        public Guid? Id { get; set; }
     }
     
     public class HWEventGetDto
