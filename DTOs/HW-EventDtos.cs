@@ -1,18 +1,14 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations; // alt + enter 
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace net_core_bootcamp_b1.Models
+namespace net_core_bootcamp_b1.DTOs
 {
-    public class HW_Event
+    public class HW_EventAddDto
     {
-        public Guid? Id { get; set; }
-        public bool IsDeleted { get; set; }
-        public DateTime CreatedAt { get; set; }
-        [Required]
         public string Name { get; set; }
-        [Required]
         public DateTime StartDate { get; set; }
-        [Required]
         public DateTime FinishDate { get; set; }
         public string Address { get; set; }
         public bool IsFree { get; set; }
